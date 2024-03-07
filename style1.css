@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: greenyellow;
+    box-shadow: -1px -1px 16px;
+    height: 100px;
+    width: 100%;
+}
+
+.head i{
+    font-size: 50px;
+    margin: 15px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.vege, .fru, .elec{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    cursor: pointer;
+}
+
+.vege h2, .fru h2, .elec h2{
+    margin-bottom: 10px;
+    font-size: 80%;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.vege img, .fru img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.elec img{
+    max-width: 100%;
+    height: 69%;
+    border-radius:8px;
+}

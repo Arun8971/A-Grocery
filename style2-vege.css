@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: greenyellow;
+    box-shadow: -1px -1px 16px;
+    height: 100px;
+    width: 100%;
+}
+
+.head i{
+    font-size: 50px;
+    margin: 15px;
+}
+
+.container2{
+    max-width: 1200px;
+    height: auto;
+    padding: 20px;
+}
+
+.vegetables1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.vegetables2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#pr1, #pr2, #pr3, #pr4{
+    width: 60px;
+    color: black;
+    text-align: center;
+}
+
+#qut1, #qut2, #qut3, #qut4{
+    width: auto;
+    color: black;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.cucum, .tom, .carr, .lad {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    cursor: pointer;
+}
+
+label{
+    font-size: 15px;
+}
+
+.cucum h2, .tom h2, .carr h2, .lad h2{
+    margin-bottom: 10px;
+    font-size: 80%;
+}
+
+.cucum img, .tom img, .carr img, .lad img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
