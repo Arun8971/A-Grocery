@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: greenyellow;
+    box-shadow: -1px -1px 16px;
+    height: 100px;
+    width: 100%;
+}
+
+.head i{
+    font-size: 50px;
+    margin: 10px;
+}
+
+.container2{
+    max-width: 1200px;
+    height: auto;
+    padding: 20px;
+}
+
+.electronics1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.electronics2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#pr1, #pr2, #pr3, #pr4, #pr5,#pr6
+{
+    width: 65px;
+    color: black;
+    text-align: center;
+}
+
+#qut1, #qut2, #qut3, #qut4, #qut5, #qut6{
+    width: auto;
+    color: black;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.item{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    cursor: pointer;
+}
+
+.item h2{
+    margin-bottom: 10px;
+    font-size: 70%;
+}
+
+.item img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
