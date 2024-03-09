@@ -45,20 +45,20 @@ body {
     margin-top: 30px;
 }
 
-#pr1, #pr2, #pr3, #pr4{
+#pr1, #pr2, #pr3, #pr4, #pr5, #pr6{
     width: 60px;
     color: black;
     text-align: center;
 }
 
-#qut1, #qut2, #qut3, #qut4{
+#qut1, #qut2, #qut3, #qut4, #qut5, #qut6{
     width: auto;
     color: black;
     text-align: center;
     border: none;
     cursor: pointer;
 }
-.cucum, .tom, .carr, .lad {
+.cucum, .tom, .carr, .lad, .coria, .bri {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -72,12 +72,12 @@ label{
     font-size: 15px;
 }
 
-.cucum h2, .tom h2, .carr h2, .lad h2{
+.cucum h2, .tom h2, .carr h2, .lad h2, .coria h2, .bri h2{
     margin-bottom: 10px;
     font-size: 80%;
 }
 
-.cucum img, .tom img, .carr img, .lad img{
+.cucum img, .tom img, .carr img, .lad img, .coria img, .bri img{
     max-width: 100%;
     height: auto;
     border-radius: 8px;
