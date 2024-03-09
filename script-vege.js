@@ -72,6 +72,46 @@ qty4.addEventListener("change", function(){
 });
 
 
+let qty5 = document.getElementById("qut5");
+let pri5 = document.getElementById("pr5");
+
+qty5.addEventListener("change", function(){
+    let selectedOption = qty5.value;
+
+    if(selectedOption === "50gm"){
+        pri5.value = '₹4';
+    }else if(selectedOption ==="80gm") {
+        pri5.value = '₹9';
+    }
+    else if(selectedOption ==="120gm"){
+        pri5.value='₹15';
+    }else{
+        pri5.value='';
+    }
+});
+
+
+let qty6 = document.getElementById("qut6");
+let pri6 = document.getElementById("pr6");
+
+qty6.addEventListener("change", function(){
+    let selectedOption = qty6.value;
+
+    if(selectedOption === "250gm"){
+        pri6.value = '₹13';
+    }else if(selectedOption ==="500gm") {
+        pri6.value = '₹26';
+    }
+    else if(selectedOption ==="1000gm"){
+        pri6.value='₹52';
+    }else{
+        pri6.value='';
+    }
+});
+
+
+
+
 
 
 
