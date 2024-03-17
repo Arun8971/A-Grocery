@@ -30,12 +30,13 @@
                     <input type="text" id="pr1" disabled><br><br>
 
                     <label for="qt"><b>Quantity:</b></label>
-                    <select name="Quantity" id="qut1">
+                    <select name="Quantity" id="qut1" class="qut1">
                         <option value="none">--None--</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                     </select>
+                    <button class="btn" onclick="buyItems('Apple','pr1','qut1')"><b>Buy now</b></button>
                 </div>
 
                 <!--div for Banana-->
@@ -53,6 +54,7 @@
                         <option value="2">2</option>
                         <option value="3">3</option>
                     </select>
+                    <button class="btn" onclick="buyItems('Banana','pr2','qut2')"><b>Buy now</b></button>
                 </div>
 
                 <!--div for Mango-->
@@ -70,6 +72,7 @@
                         <option value="2">2</option>
                         <option value="3">3</option>
                     </select>
+                    <button class="btn" onclick="buyItems('Mango','pr3','qut3')"><b>Buy now</b></button>
                 </div>
             </div>
             <div class="fruits2">
@@ -89,6 +92,7 @@
                         <option value="2">2</option>
                         <option value="3">3</option>
                     </select>
+                    <button class="btn"><b>Buy now</b></button>
                 </div>
 
                 <!--div for Grapes-->
@@ -106,6 +110,7 @@
                         <option value="500gm">500gm</option>
                         <option value="1000gm">1000gm</option>
                     </select>
+                    <button class="btn"><b>Buy now</b></button>
                 </div>
 
                 <!--div for Pineapple-->
@@ -123,10 +128,12 @@
                         <option value="2">2</option>
                         <option value="3">3</option>
                     </select>
+                    <button class="btn"><b>Buy now</b></button>
                 </div>
             </div>
         </div>
      </main>
      <script src="script-fruits.js"></script>
+     <script src="buy.js"></script>
 </body>
 </html>
