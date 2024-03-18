@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choclates - A-Grocery</title>
+    <link rel="stylesheet" href="style2-choclates.css">
+    <!-- basket style link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header> 
+        <div class="head"> 
+          <i class="fa fa-shopping-cart"></i>
+          <h1>A-Grocery</h1>
+        </div>
+     </header>
+
+     <main>
+        <div class="container2">
+            <div class="Choclates1">
+
+                <!--div for Diary Milk-->
+                <div class="app">
+                    <h2>Diary Milk</h2>
+                    <img src="Images/Diarymilk.webp" alt="Diarymilk">
+                    
+                    <label for="pr1"><b>Price:</b></label>
+                    <input type="text" id="pr1" disabled><br><br>
+
+                    <label for="qut1"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut1" class="qut1">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+                    <button class="btn" onclick="buyItems('Diarymilk','pr1','qut1')"><b>Buy now</b></button>
+                </div>
+
+                <!--div for KitKat-->
+                <div class="ban">
+                    <h2>KitKat</h2>
+                    <img src="Images/kitkat.jpg" alt="KitKat">
+
+                    <label for="pr"><b>Price:</b></label>
+                    <input type="text" id="pr2" disabled><br><br>
+
+                    <label for="qt"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut2">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+                    <button class="btn" onclick="buyItems('KitKat','pr2','qut2')"><b>Buy now</b></button>
+                </div>
+
+                <!--div for Milkybar-->
+                <div class="man">
+                    <h2>Milky Bar</h2>
+                    <img src="Images/milky.jpeg" alt="Milkybar">
+
+                    <label for="pr"><b>Price:</b></label>
+                    <input type="text" id="pr3" disabled><br><br>
+
+                    <label for="qt"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut3">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+                    <button class="btn" onclick="buyItems('Milky Bar','pr3','qut3')"><b>Buy now</b></button>
+                </div>
+            </div>
+            <div class="Choclates2">
+
+                <!--div for 5Star-->
+                <div class="ora">
+                    <h2>5 Star</h2>
+                    <img src="Images/5star.jpg" alt="5 Star">
+
+                    <label for="pr"><b>Price:</b></label>
+                    <input type="text" id="pr4" disabled><br><br>
+
+                    <label for="qt"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut4">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+                    <button class="btn" onclick="buyItems('5 Star','pr4','qut4')"><b>Buy now</b></button>
+                </div>
+
+                <!--div for schmitten-->
+                <div class="gra">
+                    <h2>Schmitten</h2>
+                    <img src="Images/schm.jpg" alt="schmitten">
+
+                    <label for="pr5"><b>Price:</b></label>
+                    <input type="text" id="pr5" disabled><br><br>
+
+                    <label for="qt"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut5">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+                    <button class="btn" onclick="buyItems('Schmitten','pr5','qut5')"><b>Buy now</b></button>
+                </div>
+
+                <!--div for twix-->
+                <div class="pin">
+                    <h2>Twix</h2>
+                    <img src="Images/twix.webp" alt="twix">
+
+                    <label for="pr6"><b>Price:</b></label>
+                    <input type="text" id="pr6" disabled><br><br>
+
+                    <label for="qt"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut6">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+                    <button class="btn" onclick="buyItems('Twix','pr6','qut6')"><b>Buy now</b></button>
+                </div>
+            </div>
+        </div>
+     </main>
+     <script src="script-choclates.js"></script>
+     <script src="buy.js"></script>
+</body>
+</html>
