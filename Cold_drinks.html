@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold Drinks - A-Grocery</title>
+    <link rel="stylesheet" href="style2-cold-drinks.css">
+    <!-- basket style link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header> 
+        <div class="head"> 
+          <i class="fa fa-shopping-cart"></i>
+          <h1>A-Grocery</h1>
+        </div>
+     </header>
+
+     <main>
+        <div class="container2">
+            <div class="drinks1">
+
+                <!--div for Coke-->
+                <div class="coke">
+                    <h2>Coke</h2>
+                    <img src="Images/Coke.jpg" alt="Coke">
+                    
+                    <label for="vol"><b>Volume:</b></label>
+                    <select name="Volume" id="vol1">
+                        <option value="none">--None--</option>
+                        <option value="250ml">250ml</option>
+                        <option value="500ml">500ml</option>
+                        <option value="1000ml">1000ml</option>
+                    </select><br><br>
+
+                    <label for="qty"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut1">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+
+                    <label for="pr"><b>Price:</b></label>
+                    <input type="text" id="pr1" disabled><br><br>
+
+                    <button class="btn" onclick="buyCold('Coke','pr1','vol1','qut1')"><b>Buy now</b></button>
+                </div>
+
+                <!--div for Pepsi-->
+                <div class="pepsi">
+                    <h2>Pepsi</h2>
+                    <img src="Images/Pepsi.jpg" alt="Pepsi">
+
+                    <label for="vol"><b>Volume:</b></label>
+                    <select name="Volume" id="vol2">
+                        <option value="none">--None--</option>
+                        <option value="250ml">250ml</option>
+                        <option value="500ml">500ml</option>
+                        <option value="1000ml">1000ml</option>
+                    </select><br><br>
+
+                    <label for="qty"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut2">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+
+                    <label for="pr"><b>Price:</b></label>
+                    <input type="text" id="pr2" disabled><br><br>
+
+                    <button class="btn" onclick="buyCold('Pepsi','pr2','vol2','qut2')"><b>Buy now</b></button>
+                </div>
+
+                <!--div for Sprite-->
+                <div class="sprite">
+                    <h2>Sprite</h2>
+                    <img src="Images/Sprite.jpg" alt="Sprite">
+
+                    <label for="vol"><b>Volume:</b></label>
+                    <select name="Volume" id="vol3">
+                        <option value="none">--None--</option>
+                        <option value="250ml">250ml</option>
+                        <option value="500ml">500ml</option>
+                        <option value="1000ml">1000ml</option>
+                    </select><br><br>
+
+                    <label for="qty"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut3">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+
+                    <label for="pr"><b>Price:</b></label>
+                    <input type="text" id="pr3" disabled><br><br>
+
+                    <button class="btn" onclick="buyCold('Sprite','pr3','vol3','qut3')"><b>Buy now</b></button>
+                </div>
+            </div>
+            <div class="drinks2">
+
+                <!--div for Mountain Dew-->
+                <div class="dew">
+                    <h2>Mountain Dew</h2>
+                    <img src="Images/Mountain_Dew.webp" alt="Mountain Dew">
+
+                    <label for="vol"><b>Volume:</b></label>
+                    <select name="Volume" id="vol4">
+                        <option value="none">--None--</option>
+                        <option value="250ml">250ml</option>
+                        <option value="500ml">500ml</option>
+                        <option value="1000ml">1000ml</option>
+                    </select><br><br>
+
+                    <label for="qty"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut4">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+
+                    <label for="pr"><b>Price:</b></label>
+                    <input type="text" id="pr4" disabled><br><br>
+
+                    <button class="btn" onclick="buyCold('Mountain Dew','pr4','vol4','qut4')"><b>Buy now</b></button>
+                </div>
+
+                <!--div for Fanta-->
+                <div class="fanta">
+                    <h2>Fanta</h2>
+                    <img src="Images/Fanta.jpg" alt="Fanta">
+
+                    <label for="vol"><b>Volume:</b></label>
+                    <select name="Volume" id="vol5">
+                        <option value="none">--None--</option>
+                        <option value="250ml">250ml</option>
+                        <option value="500ml">500ml</option>
+                        <option value="1000ml">1000ml</option>
+                    </select><br><br>
+
+                    <label for="qty"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut5">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+
+                    <label for="pr"><b>Price:</b></label>
+                    <input type="text" id="pr5" disabled><br><br>
+
+                    <button class="btn" onclick="buyCold('Fanta','pr5','vol5','qut5')"><b>Buy now</b></button>
+                </div>
+
+                <!--div for 7UP-->
+                <div class="sevenup">
+                    <h2>7UP</h2>
+                    <img src="Images/7UP.webp" alt="7UP" id="sev">
+
+                    <label for="vol"><b>Volume:</b></label>
+                    <select name="Volume" id="vol6">
+                        <option value="none">--None--</option>
+                        <option value="250ml">250ml</option>
+                        <option value="500ml">500ml</option>
+                        <option value="1000ml">1000ml</option>
+                    </select><br><br>
+
+                    <label for="qty"><b>Quantity:</b></label>
+                    <select name="Quantity" id="qut6">
+                        <option value="none">--None--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br>
+
+                    <label for="pr"><b>Price:</b></label>
+                    <input type="text" id="pr6" disabled><br><br>
+
+                    <button class="btn" onclick="buyCold('7UP','pr6','vol6','qut6')"><b>Buy now</b></button>
+                </div>
+            </div>
+        </div>
+     </main>
+     <script src="script-cold-drinks.js"></script>
+     <script src="buy.js"></script>
+</body>
+</html>
