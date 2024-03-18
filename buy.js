@@ -16,3 +16,13 @@ function buyItems(itemName, priceID, quantityID) {
 
     
 
+function buyElec(itemName,priceID){
+    let innerElement=document.getElementById(priceID);
+    let placeholderValue=innerElement.getAttribute("placeholder");
+    let address=prompt("Please enter your address  for delivery");
+    if(address){
+        alert(`Order Confirmed...!\nAddress:\n${address}\nOrder Details:\n${itemName}\nPrice:${placeholderValue}\nThankYou for shopping with us.....`);
+    }else{
+        alert("Address not entered...Order cancelled...!");
+    }
+}
