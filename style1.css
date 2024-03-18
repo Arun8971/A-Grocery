@@ -33,13 +33,13 @@ body {
     margin: 15px;
 }
 
-.categories {
+.categories1, .categories2{
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
 
-.vege, .fru, .elec{
+.vege, .fru, .elec, .cold{
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -49,7 +49,7 @@ body {
     cursor: pointer;
 }
 
-.vege h2, .fru h2, .elec h2{
+.vege h2, .fru h2, .elec h2, .cold h2{
     margin-bottom: 10px;
     font-size: 80%;
     color:black;
@@ -59,7 +59,7 @@ a{
     text-decoration: none;
 }
 
-.vege img, .fru img{
+.vege img, .fru img, .cold img{
     max-width: 100%;
     height: auto;
     border-radius: 8px;
